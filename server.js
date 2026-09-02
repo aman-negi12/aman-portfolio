@@ -17,7 +17,7 @@ const ai = new GoogleGenAI({
 });
 
 app.use(express.json({ limit: "32kb" }));
-app.use(express.static(__dirname, { extensions: ["html"] }));
+app.use(express.static(__dirname));
 
 const portfolioContext = `
 You are Aman AI, the friendly AI assistant embedded in Aman's personal portfolio website.
@@ -173,6 +173,7 @@ app.get("/api/health", (_req, res) => {
 app.use((_req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
+
 
 app.listen(PORT, () => {
   console.log(`Aman Portfolio running at http://localhost:${PORT}`);
