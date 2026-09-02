@@ -30,7 +30,7 @@
   </div>
 
   <header class="navbar">
-    <a class="brand" href="#home">A<span>.</span></a>
+    <a class="brand" href="#home"></a>
     <button class="nav-toggle" aria-label="Open menu">☰</button>
     <button class="nav-3d" id="threeDBtn" type="button" aria-pressed="false"><span class="nav-3d-icon">◇</span><span class="nav-3d-text">3D View</span></button>
     <nav class="nav-links">
@@ -310,7 +310,9 @@
           <h2>Let's build something useful.</h2>
           <p>Have an idea, opportunity or collaboration in mind? Drop a message.</p>
         </div>
-        <form id="contactForm">
+        <form id="contact-form"
+      action="https://formspree.io/f/mdeogdka"
+      method="POST">
           <input type="text" name="name" placeholder="Your name" required />
           <input type="email" name="email" placeholder="Your email" required />
           <textarea name="message" rows="5" placeholder="Your message" required></textarea>
