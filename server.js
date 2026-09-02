@@ -17,7 +17,7 @@ const ai = new GoogleGenAI({
 });
 
 app.use(express.json({ limit: "32kb" }));
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, "public")));
 
 const portfolioContext = `
 You are Aman AI, the friendly AI assistant embedded in Aman's personal portfolio website.
