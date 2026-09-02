@@ -1,0 +1,19 @@
+{
+  "name": "aman-portfolio-gemini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aman's portfolio with an AI assistant powered by Google's Gemini Developer API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "2.19.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}

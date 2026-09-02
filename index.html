@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aman's portfolio — web development, full-stack projects, achievements and education." />
+  <title>Aman | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="noise"></div>
+
+  <div class="tech-scene" aria-hidden="true">
+    <div class="tech-grid"></div>
+    <div class="tech-circuit circuit-a"></div>
+    <div class="tech-circuit circuit-b"></div>
+    <div class="tech-orbit orbit-a"><span>WEB</span></div>
+    <div class="tech-orbit orbit-b"><span>AI</span></div>
+    <div class="tech-orbit orbit-c"><span>CODE</span></div>
+    <div class="tech-core">&lt;/&gt;</div>
+    <div class="tech-node node-1">JS</div>
+    <div class="tech-node node-2">REACT</div>
+    <div class="tech-node node-3">NODE</div>
+    <div class="tech-node node-4">C++</div>
+  </div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">A<span>.</span></a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+    <button class="nav-3d" id="threeDBtn" type="button" aria-pressed="false"><span class="nav-3d-icon">◇</span><span class="nav-3d-text">3D View</span></button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse-dot"></span> Building for the web</div>
+        <h1>Hi, I'm <span>Aman</span>.</h1>
+        <h2>Full Stack Developer &amp; AI Enthusiast</h2>
+        <p>
+          I enjoy building useful web experiences, learning new technologies,
+          and turning ideas into clean, interactive products.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects <span>↗</span></a>
+          <button class="btn ghost" id="viewResumeBtn" type="button">View Resume <span>↗</span></button>
+        </div>
+        <div class="hero-meta">
+          <span>C++</span><span>JavaScript</span><span>React</span><span>Node.js</span>
+        </div>
+      </div>
+
+      <div class="hero-card profile-card reveal delay-1">
+        <div class="profile-top">
+          <div class="profile-orbit"><span class="orbit-core">A</span><span class="orbit-ring"></span><span class="orbit-dot"></span></div>
+          <div class="profile-copy">
+            <span class="profile-label">CURRENT FOCUS</span>
+            <h3>Building for the web</h3>
+            <p>Full Stack · AI · Problem Solving</p>
+          </div>
+        </div>
+        <div class="profile-divider"></div>
+        <div class="profile-grid">
+          <div><span>EDUCATION</span><strong>B.Tech CSE</strong></div>
+          <div><span>CGPA</span><strong>9.47</strong></div>
+          <div><span>PROBLEMS</span><strong>50+</strong></div>
+          <div><span>BADGE</span><strong>100 Days</strong></div>
+        </div>
+        <div class="mini-line"><span class="pulse-dot"></span> open to learning &amp; opportunities</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">01 / about</span>
+        <h2>A little about me</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-card about-main reveal">
+          <p>
+            I'm a Computer Science &amp; Engineering student who enjoys exploring
+            web development, full-stack development, AI and problem solving.
+            I like learning by building projects and improving them step by step.
+          </p>
+          <p>
+            My goal is to create practical, polished digital experiences while
+            continuously strengthening my development and programming skills.
+          </p>
+        </article>
+        <div class="about-stack">
+          <article class="glass-card stat-card reveal delay-1"><span class="stat-number">9.47</span><span>Current CGPA</span></article>
+          <article class="glass-card stat-card reveal delay-2"><span class="stat-number">50+</span><span>Problems solved</span></article>
+          <article class="glass-card stat-card reveal delay-3"><span class="stat-number">100</span><span>Days LeetCode badge</span></article>
+          <article class="glass-card stat-card reveal delay-4"><span class="stat-number">3</span><span>Featured certificates</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">02 / education</span>
+        <h2>My learning journey</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug 2025 — Present</div>
+          <div class="glass-card timeline-card">
+            <div class="card-row">
+              <div>
+                <h3>Lovely Professional University</h3>
+                <p>Bachelor of Technology — Computer Science and Engineering</p>
+              </div>
+              <span class="location">Phagwara, Punjab</span>
+            </div>
+            <div class="metric">CGPA <strong>9.47</strong></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Apr 2024 — Mar 2025</div>
+          <div class="glass-card timeline-card">
+            <div class="card-row">
+              <div>
+                <h3>St. Joseph’s Convent School</h3>
+                <p>Higher Secondary Education</p>
+              </div>
+              <span class="location">Kotdwar, Uttarakhand</span>
+            </div>
+            <div class="metric">Percentage <strong>89.25%</strong></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Apr 2022 — Mar 2023</div>
+          <div class="glass-card timeline-card">
+            <div class="card-row">
+              <div>
+                <h3>St. Joseph’s Convent School</h3>
+                <p>Secondary Education</p>
+              </div>
+              <span class="location">Kotdwar, Uttarakhand</span>
+            </div>
+            <div class="metric">Percentage <strong>93.2%</strong></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">03 / skills</span>
+        <h2>Tools I work with</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="glass-card skill-card reveal">
+          <div class="skill-icon">⌘</div>
+          <h3>Programming</h3>
+          <div class="tags"><span>C++</span><span>JavaScript</span></div>
+        </article>
+        <article class="glass-card skill-card reveal delay-1">
+          <div class="skill-icon">◫</div>
+          <h3>Frontend</h3>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span></div>
+        </article>
+        <article class="glass-card skill-card reveal delay-2">
+          <div class="skill-icon">⌁</div>
+          <h3>Backend</h3>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>REST APIs</span></div>
+        </article>
+        <article class="glass-card skill-card reveal delay-3">
+          <div class="skill-icon">◇</div>
+          <h3>Tools &amp; workflow</h3>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">04 / projects</span>
+        <h2>Things I've built</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-glow"></div>
+          <div class="project-top"><span class="project-number">01</span><span class="project-arrow">↗</span></div>
+          <h3>Hand Gesture Home Automation</h3>
+          <p>Control lights and fans using hand gestures with a computer-vision driven interaction system.</p>
+          <div class="tags"><span>Python</span><span>OpenCV</span><span>Computer Vision</span><span>IoT</span></div>
+          <div class="project-links"><a href="#" aria-label="Live demo">Live Demo ↗</a><a href="#" aria-label="GitHub repository">GitHub ↗</a></div>
+        </article>
+
+        <article class="project-card reveal delay-1">
+          <div class="project-top">
+            <span class="project-number">02</span>
+            <span class="project-arrow">↗</span>
+          </div>
+        
+          <h3>Weather Intelligence Dashboard</h3>
+        
+          <p>
+            A responsive weather platform providing live conditions, hourly and
+            7-day forecasts, air-quality insights, interactive charts, and
+            location-based weather data.
+          </p>
+        
+          <div class="tags">
+            <span>JavaScript</span>
+            <span>REST APIs</span>
+            <span>Chart.js</span>
+          </div>
+        
+          <div class="project-links">
+            <a href="https://an-weather-site-steel.vercel.app"
+               target="_blank"
+               rel="noopener noreferrer">
+              Live Demo ↗
+            </a>
+        
+            <a href="https://github.com/aman-negi12/weather-intelligence-site"
+   target="_blank"
+   rel="noopener noreferrer">
+   GitHub ↗
+</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal delay-2">
+          <div class="project-top"><span class="project-number">03</span><span class="project-arrow">↗</span></div>
+          <h3>More projects coming</h3>
+          <p>This space is ready for another project as you keep building, experimenting and learning.</p>
+          <div class="tags"><span>Web</span><span>AI</span><span>Learning</span></div>
+          <div class="project-links"><a href="#contact">Collaborate ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="section-heading reveal">
+        <span class="section-kicker">05 / certificates</span>
+        <h2>Learning beyond the classroom</h2>
+      </div>
+
+      <div class="cert-list">
+        <article class="cert glass-card reveal">
+          <div class="cert-icon">✦</div>
+          <div class="cert-info">
+            <h3>Introduction to Web Development with ChatGPT</h3>
+            <p>Simplilearn</p>
+          </div>
+          <time>Aug 2026</time>
+          <a href="#" aria-label="View certificate">View ↗</a>
+        </article>
+
+        <article class="cert glass-card reveal delay-1">
+          <div class="cert-icon">✦</div>
+          <div class="cert-info">
+            <h3>Introduction to Generative AI</h3>
+            <p>Simplilearn</p>
+          </div>
+          <time>Aug 2026</time>
+          <a href="#" aria-label="View certificate">View ↗</a>
+        </article>
+
+        <article class="cert glass-card reveal delay-2">
+          <div class="cert-icon">✦</div>
+          <div class="cert-info">
+            <h3>Learning Full Stack React</h3>
+            <p>Infosys Springboard</p>
+          </div>
+          <time>Mar 2026</time>
+          <a href="#" aria-label="View certificate">View ↗</a>
+        </article>
+      </div>
+
+      <div class="achievement-box glass-card reveal">
+        <div>
+          <span class="section-kicker">achievements</span>
+          <h3>Consistency is part of the process.</h3>
+        </div>
+        <div class="achievement-list">
+          <p><span>+</span> Solved more than <strong>50+</strong> programming problems on online coding platforms during regular practice and learning.</p>
+          <p><span>+</span> Achieved the <strong>LeetCode 100 Days Badge</strong> by maintaining consistent daily problem solving.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-wrap glass-card reveal">
+        <div>
+          <span class="section-kicker">06 / contact</span>
+          <h2>Let's build something useful.</h2>
+          <p>Have an idea, opportunity or collaboration in mind? Drop a message.</p>
+        </div>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+          <button class="btn primary" type="submit">Send Message <span>↗</span></button>
+          <small id="formNote">Connect this form to your preferred email service or backend.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Aman</span>
+    <span>Built with curiosity &amp; code.</span>
+  </footer>
+
+  <div class="resume-modal" id="resumeModal" aria-hidden="true">
+    <div class="resume-backdrop" id="resumeBackdrop"></div>
+    <div class="resume-dialog" role="dialog" aria-modal="true" aria-labelledby="resumeTitle">
+      <div class="resume-header">
+        <div>
+          <div class="resume-title" id="resumeTitle">Aman's Resume</div>
+          <small>Preview your resume here</small>
+        </div>
+        <div class="resume-actions">
+          <a class="resume-action" href="resume.pdf" download="Aman-Resume.pdf">Download <span>↓</span></a>
+          <button class="resume-close" id="resumeClose" type="button" aria-label="Close resume">×</button>
+        </div>
+      </div>
+      <div class="resume-viewer">
+        <iframe src="resume.pdf" title="Aman's resume"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <button class="ai-fab" id="aiFab" aria-label="Open AI assistant">
+    <span>✦</span>
+    <span>Ask Aman AI</span>
+  </button>
+
+  <aside class="ai-panel" id="aiPanel" aria-hidden="true">
+    <div class="ai-header">
+      <div>
+        <div class="ai-title"><span class="spark">✦</span> Aman AI</div>
+        <small>Portfolio assistant</small>
+      </div>
+      <button id="aiClose" aria-label="Close AI assistant">×</button>
+    </div>
+    <div class="ai-messages" id="aiMessages">
+      <div class="ai-message bot">Hi! I'm Aman AI. Ask me about Aman's education, skills, projects, certificates or achievements.</div>
+      <div class="suggestions">
+        <button>What are his skills?</button>
+        <button>Tell me about his projects.</button>
+        <button>Where does he study?</button>
+      </div>
+    </div>
+    <form class="ai-input" id="aiForm">
+      <input id="aiInput" autocomplete="off" placeholder="Ask something..." />
+      <button type="submit" aria-label="Send">➤</button>
+    </form>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
